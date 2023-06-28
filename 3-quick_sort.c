@@ -5,7 +5,7 @@
  * using the Quick sort algorithm
  * @array: array of integers
  * @size: size of array
- * 
+ *
  * Return: void
  */
 void	quick_sort(int *array, size_t size)
@@ -22,12 +22,12 @@ void	quick_sort(int *array, size_t size)
  * @size: size of array
  * @start: start index
  * @end: end index
- * 
+ *
  * Return: void
  */
 void	quick_sort_helper(int *array, int start, int end, size_t size)
 {
-	int pivot;
+	int	pivot;
 
 	if (start < end)
 	{
@@ -44,7 +44,7 @@ void	quick_sort_helper(int *array, int start, int end, size_t size)
  * @size: size of array
  * @start: start index
  * @end: end index
- * 
+ *
  * Return: void
  */
 int	partition(int *array, int start, int end, size_t size)
@@ -55,7 +55,6 @@ int	partition(int *array, int start, int end, size_t size)
 
 	pivot = array[end];
 	i = start - 1;
-	
 	for (j = start; j < end; j++)
 	{
 		if (array[j] <= pivot)
