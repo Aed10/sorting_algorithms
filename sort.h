@@ -13,7 +13,7 @@
  * @next: Pointer to the next element of the list
  *
  * Description: Doubly linked list node structure
- * for Holberton project
+ * for ALX project
  */
 
 typedef struct listint_s
